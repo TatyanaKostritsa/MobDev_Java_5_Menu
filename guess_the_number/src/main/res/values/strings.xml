@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">guess_the_number</string>
+    <string name="behind">Слишком мало!</string>
+    <string name="ahead">Слишком много!</string>
+    <string name="hit">В точку!</string>
+    <string name="input_value">Ввести значение</string>
+    <string name="start_again">Начать заново</string>
+    <string name="play_more">Сыграть еще</string>
+    <string name="try_to_guess">Попробуй угадать число!</string>
+    <string name="error">Неверный ввод!</string>
+    <string name="WIN">Невероятно! Ты победил!!!</string>
+    <string name="littleone">Не мелочись! Введи число побольше.</string>
+    <string name="bigone">Слишком размахнулся! Введи число поменьше.</string>
+    <string name="ERROR">Пустая строка - не число. Введи число.</string>
+    <string name="ERROR1">Введенное число вне диапазона.</string>
+    <string name="WOW">Новая игра - жизнь с чистого листа!</string>
+    <string name="soob1">Легко!(числа от 1 до 10)</string>
+    <string name="soob2">Придется как следует напрячь извилины(числа от 1 до 100)</string>
+    <string name="soob3">Надо включить соображалку(числа от 1 до 50)</string>
+</resources>

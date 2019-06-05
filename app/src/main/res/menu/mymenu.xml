@@ -14,6 +14,11 @@
         android:orderInCategory="3"
         android:title="delete">
     </item>
+    <item
+        android:id="@+id/menu_square"
+        android:orderInCategory="6"
+        android:title="square">
+    </item>
     <group
         android:id="@+id/group1">
         <item
@@ -30,6 +35,11 @@
             android:id="@+id/menu_exit"
             android:orderInCategory="4"
             android:title="exit">
+        </item>
+        <item
+            android:id="@+id/menu_round"
+            android:orderInCategory="5"
+            android:title="round">
         </item>
     </group>
 </menu>

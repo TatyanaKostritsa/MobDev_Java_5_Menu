@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     // Элементы экрана
     TextView tv;
     CheckBox chb;
+    MenuItem exititem;
 
 
     @Override
@@ -55,7 +56,16 @@ public class MainActivity extends AppCompatActivity {
         sb.append("\r\n title: " + item.getTitle());
         tv.setText(sb.toString());
 
+        if (item.getItemId() == R.id.menu_exit) {
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+
         return super.onOptionsItemSelected(item);
     }
+
+
+
 
 }
